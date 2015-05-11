@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Base Stylesheet (0 - 640)
+   ========================================================================== */
+/* line 5, ../../scss/styles/base.scss */
+.inner-wrap {
+  position: relative;
+}
+/* line 8, ../../scss/styles/base.scss */
+.inner-wrap .side-nav {
+  display: block;
+  position: fixed;
+  right: 20px;
+  top: 200px;
+  z-index: 9999;
+}
+/* line 15, ../../scss/styles/base.scss */
+.inner-wrap .side-nav li a.on {
+  color: red;
+}
+/* line 19, ../../scss/styles/base.scss */
+.inner-wrap > section {
+  height: 600px;
+}
+/* line 22, ../../scss/styles/base.scss */
+.inner-wrap #section1 {
+  background: #383838;
+}
+/* line 25, ../../scss/styles/base.scss */
+.inner-wrap #section2 {
+  background: #484848;
+}
+/* line 28, ../../scss/styles/base.scss */
+.inner-wrap #section3 {
+  background: #585858;
+}
+/* line 31, ../../scss/styles/base.scss */
+.inner-wrap #section4 {
+  background: #686868;
+}
+/* line 34, ../../scss/styles/base.scss */
+.inner-wrap #section5 {
+  background: #787878;
+}
+/* line 37, ../../scss/styles/base.scss */
+.inner-wrap #section6 {
+  background: #888888;
+}
+
+/* line 43, ../../scss/styles/base.scss */
+footer.site-footer {
+  height: 200px;
+}
+
+/* ==========================================================================
+ Debug Styles
+ ========================================================================== */
+/* line 51, ../../scss/styles/base.scss */
+#debug-message {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: #fff;
+  background: pink;
+}
+/* line 62, ../../scss/styles/base.scss */
+#debug-message p {
+  margin: 0;
+}
+/* line 65, ../../scss/styles/base.scss */
+#debug-message .small, #debug-message .medium, #debug-message .large, #debug-message .exlarge {
+  display: none;
+}
+/* line 68, ../../scss/styles/base.scss */
+#debug-message .small {
+  display: block;
+}

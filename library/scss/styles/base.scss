@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Base Stylesheet (0 - 640)
+   ========================================================================== */
+
+.inner-wrap{
+    position: relative;
+
+    .side-nav{
+        display: block;
+        position: fixed;
+        right: 20px;
+        top: 200px;
+        z-index: 9999;
+        li{
+            a.on{ color: red; }
+        }
+    }
+
+    & > section{
+        height: 600px;
+    }
+    #section1{
+        background: #383838;
+    }
+    #section2{
+        background: #484848;
+    }
+    #section3{
+        background: #585858;
+    }
+    #section4{
+        background: #686868;
+    }
+    #section5{
+        background: #787878;
+    }
+    #section6{
+        background: #888888;
+    }
+
+}
+
+footer.site-footer{
+    height: 200px;
+}
+
+
+/* ==========================================================================
+ Debug Styles
+ ========================================================================== */
+#debug-message {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #fff;
+    background: pink;
+    p {
+        margin: 0;
+    }
+    .small, .medium, .large, .exlarge {
+        display: none;
+    }
+    .small {
+        display: block;
+    }
+}
