@@ -1,4 +1,4 @@
-# Waypoints.js/scrollTo In-Page Navigation
+# Waypoints/scrollTo In-Page Navigation
 
 A sinle page broken up into sections with a dynamic menu bar on the side.
 
