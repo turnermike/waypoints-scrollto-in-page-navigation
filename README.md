@@ -2,10 +2,6 @@
 
 A sinle page broken up into sections with a dynamic menu bar on the side.
 
-## Demo
-[http://demos.hi-hatconsulting.com/waypoints-scrollto-navigation/](http://demos.hi-hatconsulting.com/waypoints-scrollto-navigation/)
-
-
 # Foundation Details
 
 Additions to Foundation's default package include:
