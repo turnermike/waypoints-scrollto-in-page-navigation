@@ -100,6 +100,11 @@ window.OslerThreshold = window.OslerThreshold || {};
 
                 });
 
+                // Scrollify.js (snap effect)
+                $.scrollify({
+                    section: '.section'
+                })
+
             },
 
             initDebug: function () {
